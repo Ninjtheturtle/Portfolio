@@ -59,8 +59,8 @@ const ProjectsSection = () => {
     {
       title: "TaskFlow — Custom Programming Language",
       description:
-        "Domain-specific robotics language with closures, functions, and AST generation for Arduino automation.",
-      techStack: ["Arduino", "Recursive Descent Parsing", "FSMs"],
+        "Domain-specific robotics language with closures, functions, and AST generation.",
+      techStack: ["Typescript", "Recursive Descent Parsing", "FSMs"],
       icon: <Code className="w-6 h-6" />,
       githubUrl: "https://github.com/Ninjtheturtle/TaskFlow",
 
@@ -70,7 +70,7 @@ const ProjectsSection = () => {
       title: "OpenCV Gimbal Tracker",
       description:
         "Camera follower robotics project with website integration and real-time tracking capabilities.",
-      techStack: ["JavaScript", "OpenCV", "Robotics"],
+      techStack: ["Java", "OpenCV", "Robotics"],
       icon: <Camera className="w-6 h-6" />,
       githubUrl: "https://github.com/Ninjtheturtle/OpenCV_Gimbal_Tracker",
       demoUrl: "https://www.youtube.com/watch?v=GT5896sdyHk",
