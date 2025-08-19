@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: mode === 'development' ? '/' : '/Portfolio/',
+  base: "/Portfolio",
   build: {
     outDir: 'docs',
   },
